@@ -1,0 +1,124 @@
+#include <stdio.h>
+#include <conio.h>
+
+
+int main()
+{
+
+	int dia, mes, an_n;
+	char nom [30], ape [30], sexo [2];
+
+
+    printf("Nombre: ");
+	scanf("%s", &nom);
+    printf("Apellido: ");
+	scanf("%s", &ape);
+    printf("Sexo: ");
+	scanf("%s", &sexo);
+    printf("Ano Nacimiento: ");
+	scanf("%i", &an_n);
+    printf("Dia de nacimiento: ");
+	scanf("%i", &dia);
+    printf("Mes de nacimiento: ");
+	scanf("%i", &mes);
+
+
+ printf("\n Datos personales \n ");
+
+ 	printf("Nombre:     %s\n", nom);
+ 	printf("Apellido:   %s\n", ape);
+ 	printf("Sexo:       %s\n", sexo);
+ 	printf("Ano de Nacimiento: %i\n\n", an_n);
+    printf("Signo Zodiacal: \n");
+
+
+
+    if (mes == 1) //enero//
+    {
+        if (dia < 21)
+            printf("Capricornio\n\tTu economia se resiente de los gastos que has tenido Capricornio, pero ya te repondras.\n Te pondras al dia en el trabajo y lograrás resolver asuntos pendientes.\n No te preocupes por el dinero, te las iras arreglando de una manera u otra.\n Deberias pedir que te devuelvan lo que te deben, si insistes lo conseguirás.\n En el amor, iniciaras una etapa de conquista y de seduccion que elevara mucho tu animo.\n Conoceras a alguien que puede solucionarte asuntos gracias a unos amigos.\n Ayudaras a alguien que pasa un mal momento y te lo agradecerá en el futuro.\n No hagas caso de vendedores que tratan de que compres cosas que no necesitas.\n Por tu salud, dejar de fumar y hacer ejercicio son factores que no debes desestimar.\n Muchas cosas suceden de una manera inquietante, pero igual que llegan, se van.\n Tu actitud positiva sera la que marque la diferencia entre ocuparte o preocuparte.\n\n El color de CAPRICORNIO es: NEGRO.");
+
+        else
+            printf("Acuario\n\tSi tienes un socio del signo Cancer, ahora te ira muy bien en los negocios.\n Te has esforzado mucho y, aunque han tardado, están por venir los resultados.\n Es tiempo de iniciar algun trabajo nuevo que amplie tus horizontes economicos.\n Controla los gastos, a veces tiendes a derrochar a manos llenas lo que recibes.\n En el amor, se presentan situaciones sociales que debes manejar evitando hacer o decir algo improcedente.\n Vas a estar pendiente de una decision que deberas tomar en un problema afectivo.\n Si te proponen un viaje aceptalo, lo disfrutaras y te vendra bien desconectar.\n Si tienes dudas, revisa lo que estabas haciendo y te darás cuenta de un error.\n Las digestiones tienden a estar pesadas hoy, evita las bebidas alcohólicas, pero la salud estara bien.\n Las articulaciones pueden causarte molestias, un poco de ejercicio las reducirá, tómalo como una obligacion.\n\n El color de ACUARIO es: NEGRO.");
+    }
+    else if (mes == 2) //febrero//
+    {
+        if (dia < 19)
+            printf("Acuario\n\tSi tienes un socio del signo Cancer, ahora te ira muy bien en los negocios.\n Te has esforzado mucho y, aunque han tardado, están por venir los resultados.\n Es tiempo de iniciar algun trabajo nuevo que amplie tus horizontes economicos.\n Controla los gastos, a veces tiendes a derrochar a manos llenas lo que recibes.\n En el amor, se presentan situaciones sociales que debes manejar evitando hacer o decir algo improcedente.\n Vas a estar pendiente de una decision que deberas tomar en un problema afectivo.\n Si te proponen un viaje aceptalo, lo disfrutaras y te vendra bien desconectar.\n Si tienes dudas, revisa lo que estabas haciendo y te darás cuenta de un error.\n Las digestiones tienden a estar pesadas hoy, evita las bebidas alcohólicas, pero la salud estara bien.\n Las articulaciones pueden causarte molestias, un poco de ejercicio las reducirá, tómalo como una obligacion.\n\n El color de ACUARIO es: NEGRO.");
+        else
+            printf("Piscis\n\tA pesar de los contratiempos saldras de los problemas de trabajo mejor de lo que pensabas Piscis.\n Si te encuentras en medio de problemas laborales, recibiras noticias positivas.\n Analiza todas las ofertas si te encuentras en un proceso de compra y venta.\n Si tienes que firmar contratos o documentos legales guiate por tus corazonadas.\n Tu vida sentimental se pondra en orden y estaras con tranquilidad, saldras del bache.\n Querras poner a prueba tu relacion, pero no te pases, sabes que te corresponden en el amor.\n Terminaras lo que no te conviene emocionalmente, podras dejar atras el pasado.\n Te sentiras un poco debil, come bien y descansa lo que necesites, te sientes mal.\n Descansa en cuanto veas que se te agotan las energias, no te fuerces si quieres conservar tu salud.\n Aun asi, tendras mejor ánimo que estos dias pasados, iras notando los cambios a mejor poco a poco.\n\n El color de PISCIS es: VIOLETA.");
+    }
+     else if (mes == 3) //marzo//
+    {
+        if (dia < 21)
+            printf("Piscis\n\tA pesar de los contratiempos saldras de los problemas de trabajo mejor de lo que pensabas Piscis.\n Si te encuentras en medio de problemas laborales, recibiras noticias positivas.\n Analiza todas las ofertas si te encuentras en un proceso de compra y venta.\n Si tienes que firmar contratos o documentos legales guiate por tus corazonadas.\n Tu vida sentimental se pondra en orden y estaras con tranquilidad, saldras del bache.\n Querras poner a prueba tu relacion, pero no te pases, sabes que te corresponden en el amor.\n Terminaras lo que no te conviene emocionalmente, podras dejar atras el pasado.\n Te sentiras un poco debil, come bien y descansa lo que necesites, te sientes mal.\n Descansa en cuanto veas que se te agotan las energias, no te fuerces si quieres conservar tu salud.\n Aun asi, tendras mejor ánimo que estos dias pasados, iras notando los cambios a mejor poco a poco.\n\n El color de PISCIS es: VIOLETA.");
+        else
+            printf("Aries\n\tDispondras de un dinero extra para ponerte al dia en tus gestiones economicas Aries.\n Dia grato para los esfuerzos de trabajo, porque estas con intuicion y debes aprovechar.\n Se avecinan gastos inesperados que no estaban en tu presupuesto, se prudente.\n Deberias tener comprension con tu pareja, lo pasa mal, y debes de estar a su lado.\n Los que te rodean saben que se puede confiar en ti y que no les defraudaras.\n Tendrás que solucionar problemas de pareja, no lo demores, se pueden agrandar.\n Si abres tu corazon el amor llegara, no puedes vivir pendiente del pasado.\n Te vendria bien salir un poco al aire libre, si puedes ir al campo, mucho mejor.\n Te sientes bien, alegre y de buen humor, contagiaras a la gente de tu alrededor, pero si ves que te sientes un poco cansado es que te hace falta una buena siesta, por tu salud.\n\n El color de ARIES es: ROJO.");
+    }
+     else if (mes == 4) //abril//
+    {
+        if (dia < 21)
+            printf("Aries\n\tDispondras de un dinero extra para ponerte al dia en tus gestiones economicas Aries.\n Dia grato para los esfuerzos de trabajo, porque estas con intuicion y debes aprovechar.\n Se avecinan gastos inesperados que no estaban en tu presupuesto, se prudente.\n Deberias tener comprension con tu pareja, lo pasa mal, y debes de estar a su lado.\n Los que te rodean saben que se puede confiar en ti y que no les defraudaras.\n Tendrás que solucionar problemas de pareja, no lo demores, se pueden agrandar.\n Si abres tu corazon el amor llegara, no puedes vivir pendiente del pasado.\n Te vendria bien salir un poco al aire libre, si puedes ir al campo, mucho mejor.\n Te sientes bien, alegre y de buen humor, contagiaras a la gente de tu alrededor, pero si ves que te sientes un poco cansado es que te hace falta una buena siesta, por tu salud.\n\n El color de ARIES es: ROJO.");
+        else
+            printf("Tauro\n\tCon mucho ingenio encontraras soluciones para los imprevistos que te surgiran.\n Debes sacar tu lado más luchador en el trabajo, no te dejes avasallar por nadie.\n Tienes un buen momento para retomar asuntos laborales que habias olvidado.\n No des consejos, no te los agradeceran, ademas si no te los piden quedas mal.\n Conseguiras lo que te propongas en el amor, lánzate sin miedo al rechazo.\n Si atraviesas una crisis de pareja, la solución debe encontrarse entre los dos.\n Los astros te afectan en tu relación de pareja, puedes tener altibajos emocionales.\n Físicamente estás en muy buena forma, aprovéchalo y no dejes de cuidarte.\n Te vendría muy bien hacer ejercicio para relajarte y desconectar de problemas, hazlo pensando en tu salud.\n Debes corregir las malas posturas, evitarás molestias en la espalda y cervicales.\n Te puedes sentir algo de los nervios, intenta organizar tu tiempo para descansar más.\n\n El color de TAURO es: VERDE.");
+    }
+     else if (mes == 5) //mayo//
+    {
+        if (dia < 21)
+            printf("Tauro\n\tCon mucho ingenio encontraras soluciones para los imprevistos que te surgiran.\n Debes sacar tu lado más luchador en el trabajo, no te dejes avasallar por nadie.\n Tienes un buen momento para retomar asuntos laborales que habias olvidado.\n No des consejos, no te los agradeceran, ademas si no te los piden quedas mal.\n Conseguiras lo que te propongas en el amor, lánzate sin miedo al rechazo.\n Si atraviesas una crisis de pareja, la solución debe encontrarse entre los dos.\n Los astros te afectan en tu relación de pareja, puedes tener altibajos emocionales.\n Físicamente estás en muy buena forma, aprovéchalo y no dejes de cuidarte.\n Te vendría muy bien hacer ejercicio para relajarte y desconectar de problemas, hazlo pensando en tu salud.\n Debes corregir las malas posturas, evitarás molestias en la espalda y cervicales.\n Te puedes sentir algo de los nervios, intenta organizar tu tiempo para descansar más.\n\n El color de TAURO es: VERDE.");
+        else
+            printf("Geminis\n\tTe haran una propuesta laboral extraña Geminis, piensatela, te puede resultar favorable.\n Tendras un excelente momento intelectual para desarrollar nuevos proyectos.\n En el trabajo se te abriran puertas que debes aprovechar para un futuro proximo.\n Tienes compañeros muy pendientes de ti esperando que cometas un error.\n Es importante que te tomes las cosas con calma, piensa que todo tiene solucion.\n Puedes dar por terminados tus asuntos pendientes, se verá compensado tu esfuerzo en el amor.\n Estas con mucho agobio y tu pareja no sabe que pasa, debes dar una explicacion coherente.\n No te encuentras mal pero tienes mucho estres, tomate las cosas con tranquilidad.\n Haz ejercicio, te vendra bien y te sentiras mucho mejor, fisica y mentalmente.\n Estas de muy buen humor y contagiaras alegria, pasaras un día fenomenal.\n Estas empezando a acusar el cansancio y te convendría dormir mas horas, piensa en la salud.\n\n El color de GEMINIS es: VIOLETA.");
+    }
+     else if (mes == 6) //junio//
+    {
+        if (dia < 21)
+            printf("Geminis\n\tTe haran una propuesta laboral extraña Geminis, piensatela, te puede resultar favorable.\n Tendras un excelente momento intelectual para desarrollar nuevos proyectos.\n En el trabajo se te abriran puertas que debes aprovechar para un futuro proximo.\n Tienes compañeros muy pendientes de ti esperando que cometas un error.\n Es importante que te tomes las cosas con calma, piensa que todo tiene solucion.\n Puedes dar por terminados tus asuntos pendientes, se verá compensado tu esfuerzo en el amor.\n Estas con mucho agobio y tu pareja no sabe que pasa, debes dar una explicacion coherente.\n No te encuentras mal pero tienes mucho estres, tomate las cosas con tranquilidad.\n Haz ejercicio, te vendra bien y te sentiras mucho mejor, fisica y mentalmente.\n Estas de muy buen humor y contagiaras alegria, pasaras un día fenomenal.\n Estas empezando a acusar el cansancio y te convendría dormir mas horas, piensa en la salud.\n\n El color de GEMINIS es: VIOLETA.");
+        else
+            printf("Cancer\n\tSuperaras algun problema que tenias en el trabajo Cancer, y tu animo se elevara mucho.\n Ten cuidado al hacer negocios con gente que no conoces bien, piensatelo mucho.\n Te apetece sentar las bases de un proyecto que tienes y es buen momento.\n En lo laboral te espera una etapa dura que te traera recompensas en el futuro.\n En el amor, necesitaras mucho carino y apoyo en estos dias, pero no te faltara.\n No te impacientes y deja que sean tambien los demas los que tomen la iniciativa.\n Podrias recibir noticias interesantes por parte de un amigo o sobre un amigo.\n En la salud, te cuesta dormir porque estas algo de los nervios, tomate algo antes de ir a la cama.\n Tienes que cuidarte mas para recuperar tu encanto de siempre, piensa en ti, despues te sentiras con fuerzas y con ilusion para emprender cosas nuevas, aprovecha.\n\n El color de CANCER es: PLATA y BLANCO.");
+    }
+     else if (mes == 7) //julio//
+    {
+        if (dia < 23)
+            printf("Cancer\n\tSuperaras algun problema que tenias en el trabajo Cancer, y tu animo se elevara mucho.\n Ten cuidado al hacer negocios con gente que no conoces bien, piensatelo mucho.\n Te apetece sentar las bases de un proyecto que tienes y es buen momento.\n En lo laboral te espera una etapa dura que te traera recompensas en el futuro.\n En el amor, necesitaras mucho carino y apoyo en estos dias, pero no te faltara.\n No te impacientes y deja que sean tambien los demas los que tomen la iniciativa.\n Podrias recibir noticias interesantes por parte de un amigo o sobre un amigo.\n En la salud, te cuesta dormir porque estas algo de los nervios, tomate algo antes de ir a la cama.\n Tienes que cuidarte mas para recuperar tu encanto de siempre, piensa en ti, despues te sentiras con fuerzas y con ilusion para emprender cosas nuevas, aprovecha.\n\n El color de CANCER es: PLATA y BLANCO.");
+        else
+            printf("Leo\n\tTienes que tener paciencia Leo, enseguida te vendra una buena racha, espera un poco.\n Dedicate a poner al dia y en orden tus asuntos en el trabajo, los tienes un poco abandonados.\n En las cuestiones de dinero no te conviene nada arriesgarte este dia.\n Creer que tienes la razon siempre te traera problemas, intenta ser flexible.\n Tendras noticias sobre algo o alguien que estaba bastante lejos últimamente.\n Dedica mas tiempo a comunicarte con los que te rodean, te vendria bien.\n Vas a tener novedades interesantes en el amor, quizás conozcas a alguien.\n Si tienes dolores de cabeza, son por acumular tensiones, relajate un poquito.\n Iras recuperando tu buen humor segun pasen las horas y te sentirás mejor.\n Te vendria bien vigilar un poco tu salud, la tienes olvidada ultimamente.\n Los astros te estan alterando un poco, pero si te lo propones lo controlarás.\n\n El color de LEO es: AMARILLO.");
+    }
+     else if (mes == 8) //agosto//
+    {
+        if (dia < 24)
+            printf("Leo\n\tTienes que tener paciencia Leo, enseguida te vendra una buena racha, espera un poco.\n Dedicate a poner al dia y en orden tus asuntos en el trabajo, los tienes un poco abandonados.\n En las cuestiones de dinero no te conviene nada arriesgarte este dia.\n Creer que tienes la razon siempre te traera problemas, intenta ser flexible.\n Tendras noticias sobre algo o alguien que estaba bastante lejos últimamente.\n Dedica mas tiempo a comunicarte con los que te rodean, te vendria bien.\n Vas a tener novedades interesantes en el amor, quizás conozcas a alguien.\n Si tienes dolores de cabeza, son por acumular tensiones, relajate un poquito.\n Iras recuperando tu buen humor segun pasen las horas y te sentirás mejor.\n Te vendria bien vigilar un poco tu salud, la tienes olvidada ultimamente.\n Los astros te estan alterando un poco, pero si te lo propones lo controlarás.\n\n El color de LEO es: AMARILLO.");
+        else
+            printf("Virgo\n\tTendras una sorpresa agradable en el terreno economico Virgo, es buen momento.\n Haras unas compras que mermaran tu economia, pero te podrás sentir muy bien.\n Tienes un buen momento para hacer cambios en tu vida profesional, piensalo.\n Acabaras tus tareas en el trabajo antes de lo que piensas y tendras tiempo para ti.\n En el amor, tendras que hacer frente a algunos asuntos familiares, pero no muy importantes.\n Evita enfrentarte a la gente en las discusiones, di las cosas con delicadeza.\n Tendras una buena relacion con los nativos de los signos de Escorpio y Cancer.\n Te sientes con mucha actividad mentalmente y tendras grandes ideas, ponlas en practica.\n Te sientes bien, con alegria y buen humor, disfruta mucho de este dia.\n Intenta preocuparte menos y disfruta mas de las cosas pequeñas que tienes.\n Adopta una dieta mas acorde con tu ritmo de vida, tienes que pensar en ti y en tu salud.\n\n El color de VIRGO es: AZUL.");
+    }
+     else if (mes == 9) //sept//
+    {
+        if (dia < 24)
+            printf("Virgo\n\tTendras una sorpresa agradable en el terreno economico Virgo, es buen momento.\n Haras unas compras que mermaran tu economia, pero te podrás sentir muy bien.\n Tienes un buen momento para hacer cambios en tu vida profesional, piensalo.\n Acabaras tus tareas en el trabajo antes de lo que piensas y tendras tiempo para ti.\n En el amor, tendras que hacer frente a algunos asuntos familiares, pero no muy importantes.\n Evita enfrentarte a la gente en las discusiones, di las cosas con delicadeza.\n Tendras una buena relacion con los nativos de los signos de Escorpio y Cancer.\n Te sientes con mucha actividad mentalmente y tendras grandes ideas, ponlas en practica.\n Te sientes bien, con alegria y buen humor, disfruta mucho de este dia.\n Intenta preocuparte menos y disfruta mas de las cosas pequeñas que tienes.\n Adopta una dieta mas acorde con tu ritmo de vida, tienes que pensar en ti y en tu salud.\n\n El color de VIRGO es: AZUL.");
+        else
+            printf("Libra:\n\tLas personas de tu alrededor harán que te sientas muy a gusto en el trabajo.\n Recuerda que hay un momento para cada cosa y ahora lo profesional pesa mas.\n Llevaras a cabo tus tareas laborales bien, pero si te esfuerzas puedes llegar mucho mas lejos.\n Tendras la mente despejada para rendir laboralmente y podras lucirte en este dia.\n Si pones un poco mas de interes en la convivencia, resolveras los problemas.\n En el amor, este es un buen momento que debes aprovechar, sobre todo para arreglar posibles problemas con tu pareja.\n Si tienes problemas de convivencia, resuelvelos con mas comunicacion.\n Procura aislarte un poco para reflexionar, veras las cosas de otro color.\n Estas bien, pero puedes mejorar mucho si empiezas una actividad fisica.\n Fisicamente te falta energia, pero en el plano mental y salud, te encuentras muy bien.\n Tienes la cabeza llena de preocupaciones que en realidad no son para tanto.\n\n El color de LIBRA es: VERDE.");
+    }
+     else if (mes == 10) //octubre//
+    {
+        if (dia < 24)
+            printf("Libra\n\tLas personas de tu alrededor harán que te sientas muy a gusto en el trabajo.\n Recuerda que hay un momento para cada cosa y ahora lo profesional pesa mas.\n Llevaras a cabo tus tareas laborales bien, pero si te esfuerzas puedes llegar mucho mas lejos.\n Tendras la mente despejada para rendir laboralmente y podras lucirte en este dia.\n Si pones un poco mas de interes en la convivencia, resolveras los problemas.\n En el amor, este es un buen momento que debes aprovechar, sobre todo para arreglar posibles problemas con tu pareja.\n Si tienes problemas de convivencia, resuelvelos con mas comunicacion.\n Procura aislarte un poco para reflexionar, veras las cosas de otro color.\n Estas bien, pero puedes mejorar mucho si empiezas una actividad fisica.\n Fisicamente te falta energia, pero en el plano mental y salud, te encuentras muy bien.\n Tienes la cabeza llena de preocupaciones que en realidad no son para tanto.\n\n El color de LIBRA es: VERDE.");
+
+        else
+            printf("Escorpio\n\tSi quieres progresar laboralmente tienes que modernizarte, te sera muy facil.\n No descuides tu trabajo ahora, si pones mas interes no sucedera nada.\n Es posible que los planes relacionados con tu descanso te parezcan caros.\n Tienes que darle rienda suelta a tus emociones, pero hazlo de un modo calmado.\n Procura salir todo lo que puedas, tendras oportunidades de diversion aseguradas.\n Tendras una actividad intensa y buenos resultados.\n Nada podra detenerte en el amor, conquistaras a esa persona por la que suspiras.\n Si tienes dificultades, tu familia te ayudara, pero debes decirselo.\n Te encuentras muy bien mentalmente, con ganas de aprender cosas nuevas.\n Tendras algun pequeño problema pasajero, no dejes que te afecte especialmente.\n Tu salud fisica y mental sera excelente, aprovecha bien esta buena racha.\n Necesitas cuidarte mas a traves de una alimentacion y otros habitos sanos, si puedes haz ejercicio.\n\n El color de ESCORPIO es: ROJO.");
+    }
+     else if (mes == 11) //nov//
+    {
+        if (dia < 23)
+            printf("Escorpio\n\tSi quieres progresar laboralmente tienes que modernizarte, te sera muy facil.\n No descuides tu trabajo ahora, si pones mas interes no sucedera nada.\n Es posible que los planes relacionados con tu descanso te parezcan caros.\n Tienes que darle rienda suelta a tus emociones, pero hazlo de un modo calmado.\n Procura salir todo lo que puedas, tendras oportunidades de diversion aseguradas.\n Tendras una actividad intensa y buenos resultados.\n Nada podra detenerte en el amor, conquistaras a esa persona por la que suspiras.\n Si tienes dificultades, tu familia te ayudara, pero debes decirselo.\n Te encuentras muy bien mentalmente, con ganas de aprender cosas nuevas.\n Tendras algun pequeño problema pasajero, no dejes que te afecte especialmente.\n Tu salud fisica y mental sera excelente, aprovecha bien esta buena racha.\n Necesitas cuidarte mas a traves de una alimentacion y otros habitos sanos, si puedes haz ejercicio.\n\n El color de ESCORPIO es: ROJO.");
+        else
+            printf("Sagitario\n\tDe momento no se van a concretar tus planes de trabajo, pero tiempo al tiempo Sagitario.\n Dedicaras mas tiempo de lo habitual a tus labores, pero te valdra la pena.\n Dispondras de mucha energia y vas a trabajar con bastante mas entusiasmo.\n Si estas buscando mejorar, las expectativas que tienes son bastante buenas.\n En el amor, solo tienes que poner un poco mas de tu parte en tu relacion para que todo vaya bien.\n Si tratas de no discutir con los demas hoy podras tener un dia magnifico.\n El ambiente familiar esta algo enrarecido, debes procurar no entrar al trapo.\n Te recuperaras rapidamente de cualquier problema, estas en una buena racha.\n Deberias dosificar mejor tus fuerzas y descansar mas, recuperaras energia.\n Es importante que no te llenes la cabeza con ideas tristes y preocupaciones.\n No pienses que todos los problemas de salud se solucionan tomando medicamentos.\n\n EL color de SAGITARIO es: AZUL.");
+    }
+     else if (mes == 12) //dic//
+    {
+        if (dia < 24)
+            printf("Sagitario\n\tDe momento no se van a concretar tus planes de trabajo, pero tiempo al tiempo Sagitario.\n Dedicaras mas tiempo de lo habitual a tus labores, pero te valdra la pena.\n Dispondras de mucha energia y vas a trabajar con bastante mas entusiasmo.\n Si estas buscando mejorar, las expectativas que tienes son bastante buenas.\n En el amor, solo tienes que poner un poco mas de tu parte en tu relacion para que todo vaya bien.\n Si tratas de no discutir con los demas hoy podras tener un dia magnifico.\n El ambiente familiar esta algo enrarecido, debes procurar no entrar al trapo.\n Te recuperaras rapidamente de cualquier problema, estas en una buena racha.\n Deberias dosificar mejor tus fuerzas y descansar mas, recuperaras energia.\n Es importante que no te llenes la cabeza con ideas tristes y preocupaciones.\n No pienses que todos los problemas de salud se solucionan tomando medicamentos.\n\n EL color de SAGITARIO es: AZUL.");
+        else
+            printf("Capricornio\n\tTu economia se resiente de los gastos que has tenido Capricornio, pero ya te repondras.\n Te pondras al dia en el trabajo y lograrás resolver asuntos pendientes.\n No te preocupes por el dinero, te las iras arreglando de una manera u otra.\n Deberias pedir que te devuelvan lo que te deben, si insistes lo conseguirás.\n En el amor, iniciaras una etapa de conquista y de seduccion que elevara mucho tu animo.\n Conoceras a alguien que puede solucionarte asuntos gracias a unos amigos.\n Ayudaras a alguien que pasa un mal momento y te lo agradecerá en el futuro.\n No hagas caso de vendedores que tratan de que compres cosas que no necesitas.\n Por tu salud, dejar de fumar y hacer ejercicio son factores que no debes desestimar.\n Muchas cosas suceden de una manera inquietante, pero igual que llegan, se van.\n Tu actitud positiva sera la que marque la diferencia entre ocuparte o preocuparte.\n\n El color de CAPRICORNIO es: NEGRO.");
+    }
+
+    return 0;
+}
